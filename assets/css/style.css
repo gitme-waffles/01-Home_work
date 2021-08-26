@@ -1,3 +1,15 @@
+/* 
+ * CSS Tabloe of Contents 
+ *
+ * 1.0 - Global
+ * 2.0 - Header
+ * 3.0 - Hero
+ * 4.0 - Section
+ * 5.0 - Aside
+ * 6.0 - Footer
+ */
+
+/*** 1.0 - Global ***/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +20,11 @@ body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+/*** 2.0 - Header ***/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,6 +37,7 @@ header h1 {
     font-size: 48px;
 }
 
+/* shades "seo" in Horiseon */
 .seo {
     color: #d9dcd6;
 }
@@ -32,6 +50,7 @@ header nav {
     font-size: 20px;
 }
 
+/* Removes bullet points in nav list */
 header nav ul {
     list-style-type: none;
 }
@@ -41,15 +60,13 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Text colour for nav anchor */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*** 3.0 - Hero ***/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +76,33 @@ p {
     background-position: center;
 }
 
+/*** 4.0 - Section ***/
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.article-a {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.article-a h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.article-a img {
+    max-height: 200px;
+}
+
+/* moves images with respective classes
+*left and right */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +113,7 @@ p {
     margin-left: 25px;
 }
 
-section {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/*** 5.0 - Aside ***/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -102,24 +141,7 @@ aside {
     max-width: 150px;
 }
 
-.article-a {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-img {
-    max-height: 200px;
-}
-
-.article-a h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*** 6.0 - Footer ***/
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
