@@ -1,6 +1,6 @@
 # Horiseon info website (Homework week 1 - Refactoring)
 
-[Screenshot of working site](./Assets/images/Horiseon_scsh.png)
+![Screenshot of working site](./Assets/images/Horiseon_scsh.png)
 
 With the code given by Trilogy Education Services I have refactored the code and a bug fix.
 
